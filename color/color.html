@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    #target{
+        width: 100px;
+        height: 100px;
+    }
+
+    a{
+        text-decoration: none; 
+    color: black;
+    }
+</style>
+<body>
+
+    <label for="color_body">Color</label>
+    <input type="color" value="#ffffff" id="color_body">
+
+    <p id="target">asdasds</p>
+        <!-- <input type="color" >
+        <input type="button" value="button" onclick="changeColor('target');">  -->
+
+        <nav>
+
+            <ul>
+                <li><a href="#">asd</a></li>
+                <li><a href="#">asd</a></li>
+                <li><a href="#">asd</a></li>
+                <li><a href="#">asda</a></li>
+            </ul>
+            
+            
+        </nav>
+
+        <h1 class="o">asdasd</h1>
+        <p class="o">asdasdads</p>
+
+
+
+    <script>
+    //   function changeColor(idname){
+    //       var obj = document.getElementById(idname);
+    //       obj.style.color = '#ffffff';
+    //       obj.style.backgroundColor = '#ff0000';
+    //   }
+
+      let color_body;
+      let defaultColor = "#ffffff";
+
+      window.addEventListener("load", startup, false);
+
+      function startup(){
+          color_body = document.querySelectorAll("#color_body");
+          color_body.value = defaultColor;
+          color_body.addEventListener("input", updateFirst, false);
+          color_body.addEventListener("change", updateAll, false);
+          color_body.select();
+      }
+
+      function updateFirst(event){
+          let body = document.querySelectorAll(".o");
+          for(let i = 0; i < body.length; ++i) {
+              body[i].style.color = event.target.value;
+
+          }
+
+        //   if(body) {
+        //   }
+      }
+
+        //   let body = document.querySelector("p");
+        //       body.style.color = event.target.value;
+      
+
+    //   function updateAll(event){
+    //       document.querySelectorAll("p").forEach(function(body){
+    //           body.style.color = event.target.value;
+    //       });
+    //   }
+
+    
+    </script>
+    
+</body>
+</html>
