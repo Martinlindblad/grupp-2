@@ -1,0 +1,161 @@
+body{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+h1,h2{
+  text-align: center;
+}
+
+nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+nav > a{
+  text-decoration: none; 
+  color: black;
+  
+}
+
+
+header{
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main{
+  margin: 3% 10%;
+  padding-bottom: 2%;
+}
+
+p{
+  width: 70%;
+  margin: auto;
+  line-height: 2em;
+  margin-bottom: 5%;
+}
+
+footer{
+  border-top: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+.layouts{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  
+}
+.layouts > button{
+  text-decoration: none; 
+  color: black;
+  border: 1px solid #000;
+  background-color: lightgray;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+  text-align: center;
+  
+}
+#color1{
+  background-color: #fff;
+}
+.layouts :hover {
+  background-color: rgb(243, 243, 243);
+  text-decoration-line: underline;
+  transform: scale(1.01)
+}
+.hide{
+  display: none;
+}
+/* ______________________Animations_______________ */
+
+
+/* ________preview 2______________ */
+
+.container-3{
+  
+}
+.container-header{
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-2{
+display: flex;
+justify-content: space-around;
+width: 60%;
+padding: 40px 0;
+margin-left: 20%;
+}
+#nav-2 > a{
+text-decoration: none; 
+color: black;
+}
+#header-2{
+text-align: center;
+}
+
+ .container-3{
+     width: 50%;
+ }
+ #container-pictures{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 90%;
+     margin: 50px auto;
+ }
+
+
+ /* _________preview 3_________ */
+
+ #nav-3{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding: 40px 0;
+  order: -1;
+}
+
+#nav-3 > a{
+  text-decoration: none; 
+  color: black;
+}
+
+#header-3{
+  display: flex;
+  text-align: center;
+  margin-left: 10%;
+}
+
+#main-part{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.container-3{
+  width: 50%;
+}
+#container-pictures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto;
+}
