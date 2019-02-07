@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="accordion.css">
+    <link rel="icon" href="favicon.ico" type="image">
+
 </head>
 
 <body>
@@ -50,7 +52,6 @@
 
   <button id="text1" class="heads"><i class="fas fa-font"></i>Text</button>
   <div id="textmenu1" class="knappar">
-    <div class="textmenu1-header"></div>
     <button id="hdr-txt-fam" class="subs">Font-family</button>
     <div id="hdr-txt-fam-rad" class="knappar">
         <label class="radios">Arial
@@ -95,8 +96,69 @@
   <button class="heads" id="bg-color-header"><i class="fas fa-palette"></i>BG-color</button>
   <div id="colormenu5" class="knappar"><input type="color" value="#ffffff" id="bg_header">
 </div>
+ <!-- border -->
+ <button id="border-header" class="heads"><i class="fas fa-underline"></i>Border</button>
+ <div id="border1" class="knappar">
+   <label class="button">
+     <button id="hdr-under" class="text-subs">Under Line</button>
+    </label>
+   <div id="hdr-border-under" class="knappar">
 
-  <button class="heads"><i class="fas fa-text-height"></i>Height</button>
+     <button id="header-under-color" class="subs">Color</button>
+     <div id="hdr-under-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+     </div>
+
+     <button id="header-under-shadow" class="subs">Shadow</button>
+     <div id="hdr-under-shadow" class="knappar">
+
+       <label class="radios">
+         <input type="radio" id="" name="radio11">
+         <span class="nyknapp"></span>
+       </label>
+       <label class="radios">
+         <input type="radio" id="" name="radio11">
+         <span class="nyknapp"></span>
+       </label>
+       <label class="radios">
+         <input type="radio" id="" name="radio11">
+         <span class="nyknapp"></span>
+       </label>
+     </div>
+   </div>
+
+
+   <button id="hdr-whole" class="text-subs">Whole Line</button>
+   <div id="hdr-border-whole" class="knappar">
+
+     <button id="header-whole-color" class="subs">Color</button>
+     <div id="hdr-whole-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+     </div>
+
+     <button id="header-whole-shadow" class="subs">Shadow</button>
+     <div id="hdr-whole-shadow" class="knappar">
+
+       <label class="radios">
+         <input type="radio" id="" name="radio12">
+         <span class="nyknapp"></span>
+       </label>
+       <label class="radios">
+         <input type="radio" id="" name="radio12">
+         <span class="nyknapp"></span>
+       </label>
+       <label class="radios">
+         <input type="radio" id="" name="radio12">
+         <span class="nyknapp"></span>
+       </label>
+     </div>
+
+   </div>
+
+
+ </div>
+
+
   
 </div>
 
@@ -150,7 +212,65 @@
 <button class="heads" id="bg-color-nav"><i class="fas fa-palette"></i>BG-color</button>
     <div id="colormenu6" class="knappar"><input type="color" value="#ffffff" id="bg_nav">
     </div>
-    <button class="heads"><i class="fas fa-text-height"></i>Height</button>
+
+    <button id="border-nav" class="heads"><i class="fas fa-underline"></i>Border</button>
+    <div id="border2" class="knappar">
+      <button id="nav-under" class="text-subs">Under Line</button>
+      <div id="nav-border-under" class="knappar">
+
+        <button id="nav-under-color" class="subs">Color</button>
+        <div id="nv-under-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+        </div>
+
+        <button id="nav-under-shadow" class="subs">Shadow</button>
+        <div id="nv-under-shadow" class="knappar">
+
+          <label class="radios">
+            <input type="radio" id="" name="radio12">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio12">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio12">
+            <span class="nyknapp"></span>
+          </label>
+        </div>
+      </div>
+
+
+      <button id="nav-whole" class="text-subs">Whole Line</button>
+      <div id="nav-border-whole" class="knappar">
+
+        <button id="nav-whole-color" class="subs">Color</button>
+        <div id="nv-whole-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+        </div>
+
+        <button id="nav-whole-shadow" class="subs">Shadow</button>
+        <div id="nv-whole-shadow" class="knappar">
+
+          <label class="radios">
+            <input type="radio" id="" name="radio13">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio13">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio13">
+            <span class="nyknapp"></span>
+          </label>
+        </div>
+
+      </div>
+
+
+    </div>
 </div>
 
                                           <!-- MAIN  -->
@@ -161,7 +281,7 @@
     <button id="text3" class="heads"><i class="fas fa-font"></i>Text</button>
     <div id="mn-txt" class="knappar">
 
-      <button id="mn-hdl-txt" class="text-subs">Headlines</button>
+      <button id="mn-hdl-txt" class="text-head-plain">Headlines</button>
       <div id="mn-hdl-txt-men" class="knappar">
     
     <button id="mn-hdl-fam" class="subs">Font-family</button>
@@ -204,10 +324,70 @@
             <div id="colormenu3" class="knappar"><input type="color" value="#ffffff" id="color_main">
             </div>
 
-        </div>
-          
-          
-          <button id="mn-pln-txt" class="text-subs">Plain text</button>
+            <button id="border-hln" class="subs"><i class="fas fa-underline"></i>Border</button>
+            <div id="border3" class="knappar">
+              <button id="border-hln-under" class="text-subs">Under Line</button>
+              <div id="main-hln-border-under" class="knappar">
+  
+                <button id="main-hln-under-color" class="subs">Color</button>
+                <div id="hln-under-color" class="knappar"><input type="color" value="#ffffff" id="">
+  
+                </div>
+  
+                <button id="main-under-shadow" class="subs">Shadow</button>
+                <div id="main-hln-under-shadow" class="knappar">
+  
+                  <label class="radios">
+                    <input type="radio" id="" name="radio16">
+                    <span class="nyknapp"></span>
+                  </label>
+                  <label class="radios">
+                    <input type="radio" id="" name="radio16">
+                    <span class="nyknapp"></span>
+                  </label>
+                  <label class="radios">
+                    <input type="radio" id="" name="radio16">
+                    <span class="nyknapp"></span>
+                  </label>
+                </div>
+              </div>
+  
+  
+              <button id="border-hln-whole" class="text-subs">Whole Line</button>
+              <div id="hln-border-whole" class="knappar">
+  
+                <button id="hln-whole-color" class="subs">Color</button>
+                <div id="main-hln-whole-color" class="knappar"><input type="color" value="#ffffff" id="">
+  
+                </div>
+  
+                <button id="hln-whole-shadow" class="subs">Shadow</button>
+                <div id="main-hln-whole-shadow" class="knappar">
+  
+                  <label class="radios">
+                    <input type="radio" id="" name="radio17">
+                    <span class="nyknapp"></span>
+                  </label>
+                  <label class="radios">
+                    <input type="radio" id="" name="radio17">
+                    <span class="nyknapp"></span>
+                  </label>
+                  <label class="radios">
+                    <input type="radio" id="" name="radio17">
+                    <span class="nyknapp"></span>
+                  </label>
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+  
+              </div>
+  
+          <button id="mn-pln-txt" class="text-head-plain">Plain text</button>
           <div id="mn-pln-txt-fam" class="knappar">
 
               <button id="mn-pln-fam" class="subs">Font-family</button>
@@ -249,6 +429,65 @@
                 <button id="mn-pln-txt-cl" class="subs">Font-color</button>
                 <div id="colormenu9" class="knappar"><input type="color" value="#ffffff" id="color_text">
                 </div>
+                <button id="border-txt" class="subs"><i class="fas fa-underline"></i>Border</button>
+          <div id="border5" class="knappar">
+            <button id="border-txt-under" class="text-subs">Under Line</button>
+            <div id="main-txt-border-under" class="knappar">
+
+              <button id="main-txt-under-color" class="subs">Color</button>
+              <div id="txt-under-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+              </div>
+
+              <button id="txt-under-shadow" class="subs">Shadow</button>
+              <div id="main-txt-under-shadow" class="knappar">
+
+                <label class="radios">
+                  <input type="radio" id="" name="radio18">
+                  <span class="nyknapp"></span>
+                </label>
+                <label class="radios">
+                  <input type="radio" id="" name="radio18">
+                  <span class="nyknapp"></span>
+                </label>
+                <label class="radios">
+                  <input type="radio" id="" name="radio18">
+                  <span class="nyknapp"></span>
+                </label>
+              </div>
+            </div>
+
+
+            <button id="border-txt-whole" class="text-subs">Whole Line</button>
+            <div id="txt-border-whole" class="knappar">
+
+              <button id="txt-whole-color" class="subs">Color</button>
+              <div id="main-txt-whole-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+              </div>
+
+              <button id="txt-whole-shadow" class="subs">Shadow</button>
+              <div id="main-txt-whole-shadow" class="knappar">
+
+                <label class="radios">
+                  <input type="radio" id="" name="radio19">
+                  <span class="nyknapp"></span>
+                </label>
+                <label class="radios">
+                  <input type="radio" id="" name="radio19">
+                  <span class="nyknapp"></span>
+                </label>
+                <label class="radios">
+                  <input type="radio" id="" name="radio19">
+                  <span class="nyknapp"></span>
+                </label>
+              </div>
+
+            </div>
+
+
+          </div>
+ 
 
           </div>
        
@@ -258,7 +497,6 @@
         <div id="colormenu7" class="knappar"><input type="color" value="#ffffff" id="bg_main">
         </div>
 
-        <button class="heads"><i class="fas fa-text-height"></i>Height</button>
     </div>  
         
                                         <!--FOOTER -->
@@ -314,7 +552,66 @@
     <button class="heads" id="bg-color-footer"><i class="fas fa-palette"></i>BG-color</button>
     <div id="colormenu8" class="knappar"><input type="color" value="#ffffff" id="bg_footer">
     </div>
-      <button class="heads"><i class="fas fa-text-height"></i>Height</button>
+    <button id="border-footer" class="heads"><i class="fas fa-underline"></i>Border</button>
+    <div id="border4" class="knappar">
+      <button id="footer-under" class="text-subs">Under Line</button>
+      <div id="footer-border-under" class="knappar">
+
+        <button id="footer-under-color" class="subs">Color</button>
+        <div id="ft-under-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+        </div>
+
+        <button id="footer-under-shadow" class="subs">Shadow</button>
+        <div id="ft-under-shadow" class="knappar">
+
+          <label class="radios">
+            <input type="radio" id="" name="radio15">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio15">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio15">
+            <span class="nyknapp"></span>
+          </label>
+        </div>
+      </div>
+
+
+      <button id="footer-whole" class="text-subs">Whole Line</button>
+      <div id="ft-border-whole" class="knappar">
+
+        <button id="footer-whole-color" class="subs">Color</button>
+        <div id="ft-whole-color" class="knappar"><input type="color" value="#ffffff" id="">
+
+        </div>
+
+        <button id="footer-whole-shadow" class="subs">Shadow</button>
+        <div id="ft-whole-shadow" class="knappar">
+
+          <label class="radios">
+            <input type="radio" id="" name="radio16">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio16">
+            <span class="nyknapp"></span>
+          </label>
+          <label class="radios">
+            <input type="radio" id="" name="radio16">
+            <span class="nyknapp"></span>
+          </label>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
 
 </div>
 
